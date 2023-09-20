@@ -1,16 +1,24 @@
 #infi-list {
+	
   width: 200px;
   height: 300px;
-  overflow: auto;
+  overflow-y: scroll;
 
   margin: 30px;
   padding: 20px;
   border: 10px solid black;
 }
 li {
+	
   padding: 10px;
   list-style-type: none;
 }
 li:hover {
   background: #ccc;
 }
+.movie-item{
+	display:flex;
+	flex-direction: column;
+	background-color: red;
+}
+
